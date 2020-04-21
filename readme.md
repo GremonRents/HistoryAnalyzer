@@ -7,5 +7,4 @@ An open source browser history analyzer
 
 ## Supported browsers
 -Google Chrome
--Mozilla Firefox
 
