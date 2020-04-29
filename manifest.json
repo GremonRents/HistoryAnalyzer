@@ -3,7 +3,11 @@
   "version": "1.0",
   "description": "",
   "background": {
-    "scripts": ["classes/HostnameTab.js", "background.js"],
+    "scripts": [
+      "scripts/Domain.js",
+      "scripts/handlers.js",
+      "background.js"
+    ],
     "persistent": false
   },
   "permissions": [
