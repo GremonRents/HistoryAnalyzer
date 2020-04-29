@@ -11,3 +11,9 @@ chrome.windows.onRemoved.addListener((windowId) => {
         domains[hostName].save(hostName);
     }
 });
+
+chrome.browserAction.setPopup({popup:''}); 
+
+chrome.browserAction.onClicked.addListener(()=>{
+    chrome.tabs.create({url:'pages/stats.html'});
+});

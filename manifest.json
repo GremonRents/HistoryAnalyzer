@@ -15,6 +15,9 @@
     "tabs",
     "storage"
   ],
+  "browser_action": {
+    "default_title": "Options"
+  },
   "manifest_version": 2,
   "icons": {
     "16": "./icons/HistoryAnalyzer16.png",
