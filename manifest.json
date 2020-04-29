@@ -3,12 +3,13 @@
   "version": "1.0",
   "description": "",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["classes/HostnameTab.js", "background.js"],
     "persistent": false
   },
   "permissions": [
     "history",
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "manifest_version": 2,
   "icons": {
